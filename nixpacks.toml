@@ -1,4 +1,4 @@
 [phases.setup]
-  nixPkgs = ['...','python311']
+  nixPkgs = ['...','python311', 'gcc10']
 
-  aptPkgs = ['build-essential', 'gcc10',]
+  aptPkgs = ['build-essential']
